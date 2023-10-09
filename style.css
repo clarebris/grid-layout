@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+main{
+    background-color: #4b3968;
+    width: 80%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: 'leftc secondc thirdc fourthc' 'fifthc sixthc sevenc';
+    gap: 15px;
+    width: 80%;
+    height: 80%;
+}
+.card1{
+    background-color: rgb(4, 4, 80);
+    height: 360px;
+    border-radius: 10px;
+    width: 200px;
+}
+.name{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.name h1{
+    color: white;
+    font-size:20px ;
+}
+.name p{
+    color: antiquewhite;
+}
+.name img{
+    width: 50%;
+}
+.basic{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.basic h1{
+    color: grey;
+    font-size: 16px;
+}
+.basic h2{
+    color: white;
+    font-size: 16px;
+}
+.card2{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+.top-row{
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+    
+}
+.top-row img{
+    width: 40px;
+}
+.bottom{
+    padding-left: 20px;
+    background-color: rgb(4, 4, 71);
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+p{
+    color: white;
+}
+.time{
+    padding-top: 0px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.card3{
+    background-color: rgb(66, 215, 226);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.card4{
+    background-color: rgb(226, 66, 133);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.card5{
+    background-color: rgb(66, 226, 165);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+
+.card6{
+    background-color: rgb(135, 66, 226);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.card7{
+    background-color: rgb(226, 197, 66);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
